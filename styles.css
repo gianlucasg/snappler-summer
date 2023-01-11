@@ -17,9 +17,8 @@ img{
 }
 .container{
     display: flex;
-    margin-top: 20px;
     flex-flow: row;
-    margin-bottom: 20px;
+    margin: 20px;
 }
 .card{
     border-radius: 5px;
@@ -29,7 +28,7 @@ img{
     background-color: black;
     display: flex;
     flex-flow: row wrap;
-    margin-top: 20px;
+    margin: 20px;
 }
 .column{
     display: flex;
