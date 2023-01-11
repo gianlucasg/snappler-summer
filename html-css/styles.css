@@ -3,10 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     background: rgb(228, 228, 228);
 
 }
+
 img{
     width: 250px;
     height: 250px;
@@ -15,26 +17,32 @@ img{
     border-style: solid;
     margin: 20px;
 }
+
 .container{
     display: flex;
     flex-flow: row;
     margin: 20px;
 }
+
 .card{
     border-radius: 5px;
     box-shadow: 0 4px 8px 0;
 }
+
 .header-container{
     background-color: black;
     display: flex;
     flex-flow: row wrap;
     margin: 20px;
 }
+
 .column{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    word-wrap: break-word;
 }
+
 .column h1,h2{
     color: white;
 }
@@ -43,38 +51,48 @@ img{
     display: flex;
     flex-direction: column;
 }
+
 .leftbox{
     background-color: rgb(255, 255, 255);
     width: 40%;
     margin-right: 10px;
 }
+
 .rightbox{
     background: rgb(180, 180, 180);
     width: 60%;
     margin-left: 10px;
 }
+
 section{
     padding-left: 30px;
 }
+
 section > h1{
     text-decoration: underline;
 }
-.lista{
+
+.list{
     list-style-type:none;
     padding: 10px;
 }
+
 .content{
     padding-top: 10px;
     display: flex;
     flex-direction: column;
+    word-wrap: break-word;
 
 }
+
 dd{
     padding: 10px;
 }
+
 dl{
     margin-top: 5px;
 }
+
 li{
     padding: 5px;
 }
