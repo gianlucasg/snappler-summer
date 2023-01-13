@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link type="text/css" href="styles.css" rel="stylesheet" />
+    <title>Ejercicio - DOM, Eventos y Window API</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="navbar-inner">
+        <h2 class="navbar-title">Ejercicio - DOM, Eventos y Window API</h2>
+        <div class="cart flex-centered" id="openCart">
+          <div class="cart-price">
+            <img class="cart-icon" src="Images/cart-icon.png" />
+            <h4 id="cartPrice">$<span id="cartTotalValue">0</span></h4>
+          </div>
+        </div>
+      </div>
+      <div id="cartDetail" class="cart-detail">
+        <div class="top">
+          <span id="closeCart" class="close-btn">
+            <strong>X</strong> Cerrar
+          </span>
+          <h1 class="cart-title">Carrito</h1>
+        </div>
+        <ul id="cartItems" class="cart-items flex-centered">
+          <h4 class="empty">El carrito está vacío</h4>
+        </ul>
+        <div class="cart-total">
+          <h4 class="total">
+            Total: $<span id="cartDetailTotalValue">0</span>
+          </h4>
+        </div>
+      </div>
+    </header>
+    <main class="main-section">
+      <h2 class="main-section-subtitle">Productos</h2>
+      <h3 class="product-count">
+        <span id="productCount">?</span> Disponibles
+      </h3>
+      <section class="products-container">
+        <article class="product">
+          <figure class="product-image flex-centered">
+            <img src="Images/prod1.png" alt="Producto 1" />
+          </figure>
+          <div class="flex-centered">
+            <button
+              class="btn btn-small add-to-cart flex-centered"
+              id="product1"
+            >
+              Agregar al Carrito
+            </button>
+          </div>
+          <div class="product-summary">
+            <h4 class="product-name">Producto 1</h4>
+            <h4 class="price">$<span class="price-value">1200</span></h4>
+          </div>
+        </article>
+        <article class="product">
+          <figure class="product-image flex-centered">
+            <img src="Images/prod2.png" alt="Producto 2" />
+          </figure>
+          <div class="flex-centered">
+            <button
+              class="btn btn-small add-to-cart flex-centered"
+              id="product2"
+            >
+              Agregar al Carrito
+            </button>
+          </div>
+          <div class="product-summary">
+            <h4 class="product-name">Producto 2</h4>
+            <h4 class="price">$<span class="price-value">600</span></h4>
+          </div>
+        </article>
+        <article class="product">
+          <figure class="product-image flex-centered">
+            <img src="Images/prod3.png" alt="Producto 3" />
+          </figure>
+          <div class="flex-centered">
+            <button
+              class="btn btn-small add-to-cart flex-centered"
+              id="product3"
+            >
+              Agregar al Carrito
+            </button>
+          </div>
+          <div class="product-summary">
+            <h4 class="product-name">Producto 3</h4>
+            <h4 class="price">$<span class="price-value">400</span></h4>
+          </div>
+        </article>
+        <article class="product">
+          <figure class="product-image flex-centered">
+            <img src="Images/prod4.png" alt="Producto 4" />
+          </figure>
+          <div class="flex-centered">
+            <button
+              class="btn btn-small add-to-cart flex-centered"
+              id="product4"
+            >
+              Agregar al Carrito
+            </button>
+          </div>
+          <div class="product-summary">
+            <h4 class="product-name">Producto 4</h4>
+            <h4 class="price">$<span class="price-value">900</span></h4>
+          </div>
+        </article>
+      </section>
+    </main>
+    <script src="ejercicio_1.js"></script>
+    <script src="ejercicio_2.js"></script>
+    <script src="ejercicio_3.js"></script>
+  </body>
+</html>
